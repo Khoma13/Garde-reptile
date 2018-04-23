@@ -1,6 +1,7 @@
 exports.config = {
   paths: {
-    'watched': ['app']
+    public: 'web',
+    watched: ['frontend']
   },
   files: {
     stylesheets: {
