@@ -1,0 +1,51 @@
+{
+  "name": "modele-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/O-clock-Fusion/React-E03-modele-react",
+  "author": "Maxime Vasse <mallaxoz@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "brunch build",
+    "start": "brunch watch --server",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "test": "mocha tests/.setup.js tests/**/*.test.js",
+    "test:watch": "mocha --watch tests/.setup.js tests/**/*.test.js",
+    "test:one": "mocha --watch tests/.setup.js $1"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.7.1",
+    "autoprefixer": "^8.1.0",
+    "babel-brunch": "https://github.com/babel/babel-brunch",
+    "babel-eslint": "^8.2.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "babel-resolver": "^1.1.0",
+    "brunch": "^2.10.12",
+    "chai": "^4.1.2",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.19.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-import-resolver-node": "^0.3.2",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "jsdom": "^11.7.0",
+    "mocha": "^5.0.5",
+    "postcss-brunch": "0.5.0",
+    "stylus-brunch": "^2.10.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2"
+  }
+}
